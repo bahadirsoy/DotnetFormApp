@@ -1,1 +1,35 @@
-<h1>asd</h1>
+@model IEnumerable<Product>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Is Approved</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <th scope="row">@product.Id</th>
+                            <td>@product.Name</td>
+                            <td>@product.Description</td>
+                            <td>@product.Price</td>
+                            @if(product.isApproved){
+                                <td> <span class="badge badge-pill bg-success">Approved</span> </td>
+                            } else{
+                                <td> <span class="badge badge-pill bg-danger">Disappproved</span> </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

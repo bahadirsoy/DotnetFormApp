@@ -46,5 +46,11 @@ namespace DotnetFormApp.Models
                 }
             };
         }
+
+        public static IEnumerable<Product> GetProducts()
+        {
+            return _products;
+        }
+
     }
 }
