@@ -15619,23 +15619,23 @@
   "RootNamespace": "DotnetFormApp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\ViewImports.cshtml",
-      "TargetPath": "ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\ViewStart.cshtml",
-      "TargetPath": "ViewStart.cshtml",
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\_ViewStart.cshtml",
+      "TargetPath": "_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\DotnetFormApp\\_ViewImports.cshtml",
+      "TargetPath": "_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
